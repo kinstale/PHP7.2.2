@@ -1,5 +1,5 @@
 # Image and version
-FROM php:8.2-fpm
+FROM php:7.2-fpm-alpine
 
 # Install dependencies
 RUN apt update && \
